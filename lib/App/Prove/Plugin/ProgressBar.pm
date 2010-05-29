@@ -12,6 +12,8 @@ App::Prove::Plugin::ProgressBar::Formatter - Progress bar for 'prove'
 
 =cut
 
+our $VERSION = '0.01';
+
 # XXX looks like a bug in TAP::Harness or in the docs. Can't pass an
 # instantiated Formatter to formatter()
 my $NUM_TESTS;
